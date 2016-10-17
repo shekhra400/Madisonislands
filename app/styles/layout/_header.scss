@@ -1,0 +1,44 @@
+header,.header{	
+	color:$white;
+	text-transform:uppercase;
+	font-family:$font-raleway;
+	font-size:$font-14;
+	.header-bar{
+		background-color:$blue-turquise;
+		padding:8px;
+		select{
+			color:$grey;
+			border:0;
+			text-transform:uppercase;
+		}
+	}
+	.header-main{
+		a.logo{
+			padding:10px;
+			display:inline-block;
+		}
+		.acount-links ul{
+			margin : 10px 0;
+		}
+		.acnt-link:before{
+			 content: "";
+		    display: inline-block;
+		    background: url("../images/icon_sprite.png") no-repeat;
+		    width: 25px;
+		    height: 25px;
+		    float: left;
+		}
+		
+		.acount-links a span{
+			color: $grey;
+		}
+
+	}
+	.header-account-section{
+		a:hover{
+			text-decoration:none;
+			color: $blue-turquise;	
+		}
+	}
+
+}
