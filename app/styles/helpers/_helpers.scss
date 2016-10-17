@@ -4,3 +4,9 @@
 .color-white{
 	color:$white;
 }
+.sprite-background{
+	background-image : url("../images/icon_sprite.png");
+	background-repeat: no-repeat;
+	content: "";
+	
+}

@@ -29,25 +29,25 @@
     
     
       <header class="header">
-      <div class="header-bar">
-        <div class="container">          
-            <div class="bar-left pull-left">
-              <label>your language:</label>
-              <select>
-                <option>English</option>
-                <option>French</option>
-                <option>German</option>
-              </select>
+        <div class="header-bar">
+          <div class="container">          
+              <div class="bar-left pull-left">
+                <label>your language:</label>
+                <select>
+                  <option>English</option>
+                  <option>French</option>
+                  <option>German</option>
+                </select>
+              </div>
+              <div class="bar-right pull-right">
+                welcome shekhar shukla
+              </div>
             </div>
-            <div class="bar-right pull-right">
-              welcome shekhar shukla
-            </div>
-          </div>
           </div>
           <div class="header-main container">
               <a href="#" class="logo"><img class="img-responsive" src="images/logo.png"/></a>             
               <div class="header-account-section pull-right">
-                <div class="acount-links">
+                <div class="acount-links pull-right">
                   <ul class="list-inline">
                     <li>
                       <a href="#">
@@ -64,12 +64,80 @@
                   </ul>
                 </div>
               <div class="search">
-                <input type="text" name="search" id="search" placeholder="Search entire store here..">
+                <form action="#" method="post">                  
+                  <input type="text" name="search" id="search" placeholder="Search entire store here..">
+                  <span>&nbsp;</span>
+                </form>
               </div>
             </div>
+          </div>
+          <div class="container">
+            <div class="header-nav">            
+              <nav>
+                <ul class="nav navbar-nav ">
+                  <li><a href="#"> women</a></li>
+                  <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"> men <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#"> New Arrivals   </a></li>
+                        <li><a href="#"> Tops           </a></li>
+                        <li><a href="#"> Bottoms        </a></li>
+                        <li><a href="#"> Innerwears     </a></li>
+                      </ul>
+                  </li>
+                  <li><a href="#"> accesories</a></li>
+                  <li><a href="#"> home & decor</a></li>
+                  <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"> sale<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"> New Arrivals   </a></li>
+                        <li><a href="#"> Tops           </a></li>
+                        <li><a href="#"> Bottoms        </a></li>
+                        <li><a href="#"> Innerwears     </a></li>
+                      </ul>
+                  </li>
+                  <li><a href="#"> vip</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+      </header>
+      <div class="main">
+        <div class="container">
+          <div id="myCarousel" class="carousel slide">
+             <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="item active">
+                  <!-- Set the first background image using inline CSS below. -->
+                  <div class="fill" style="background-image:url('images/slide-1.jpg');"></div>
+                  <div class="carousel-caption">
+                      <h2>Caption 1</h2>
+                  </div>
+              </div>
+              <div class="item">
+                  <!-- Set the second background image using inline CSS below. -->
+                  <div class="fill" style="background-image:url('images/slide-2.jpg');"></div>
+                  <div class="carousel-caption">
+                      <h2>Caption 2</h2>
+                  </div>
+              </div>
+              <div class="item">
+                  <!-- Set the third background image using inline CSS below. -->
+                  <div class="fill" style="background-image:url('images/slide-3.jpg');"></div>
+                  <div class="carousel-caption">
+                      <h2>Caption 3</h2>
+                  </div>
+              </div>
+            </div>
+          </div>          
         </div>
-    </header>
-      
+      </div>
+      <footer>
+        
+      </footer>
 
     
 
