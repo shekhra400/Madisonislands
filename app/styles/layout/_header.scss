@@ -67,6 +67,7 @@ header,.header{
 		.search{
 			width:100%;
 			position: relative;
+			display: inline-block;
 		}
 		.search input{
 			border:1px solid silver;
@@ -89,10 +90,10 @@ header,.header{
     	}
 	}
 	.header-nav{
-		// display: block; 
-		overflow: hidden;
+		display: inline-block; 
+		width:100%;
 		border-bottom: 1px solid #ededed;
-		margin-bottom: 20px;
+		margin-bottom: 16px;
 		 ul li a{
 			padding-left: 25px;
 			padding-right: 25px;

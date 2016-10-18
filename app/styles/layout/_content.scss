@@ -25,4 +25,12 @@
 		    -o-background-size: cover;
 		}
 	}
+	.promo{
+		ul.list-inline{
+		margin:20px -5px;
+		a:hover {
+			opacity:0.8;
+			}
+		}
+	}
 }
